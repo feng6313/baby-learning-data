@@ -1,38 +1,44 @@
 [
-    {
-        "id": "1",
-        "name": "水果",
-        "items": [
-            {
-                "id": "101",
-                "name": "苹果",
-                "pinyin": "píng guǒ",
-                "imageUrl": "images/apple.png"
-            },
-            {
-                "id": "102",
-                "name": "香蕉",
-                "pinyin": "xiāng jiāo",
-                "imageUrl": "images/banana.png"
-            }
-        ]
-    },
-    {
-        "id": "2",
-        "name": "动物",
-        "items": [
-            {
-                "id": "201",
-                "name": "猫",
-                "pinyin": "māo",
-                "imageUrl": "images/cat.png"
-            },
-            {
-                "id": "202",
-                "name": "狗",
-                "pinyin": "gǒu",
-                "imageUrl": "images/dog.png"
-            }
-        ]
-    }
+  {
+    "id": "animals",
+    "sortId": 1,
+    "name": "动物",
+    "items": [
+      {
+        "id": "cat",
+        "sortId": 101,
+        "name": "猫",
+        "pinyin": "māo",
+        "imageUrl": "animals/cat.png"
+      },
+      {
+        "id": "dog",
+        "sortId": 102,
+        "name": "狗",
+        "pinyin": "gǒu",
+        "imageUrl": "animals/dog.png"
+      }
+    ]
+  },
+  {
+    "id": "fruits",
+    "sortId": 2,
+    "name": "水果",
+    "items": [
+      {
+        "id": "apple",
+        "sortId": 201,
+        "name": "苹果",
+        "pinyin": "píng guǒ",
+        "imageUrl": "fruits/apple.png"
+      },
+      {
+        "id": "banana",
+        "sortId": 202,
+        "name": "香蕉",
+        "pinyin": "xiāng jiāo",
+        "imageUrl": "fruits/banana.png"
+      }
+    ]
+  }
 ]
